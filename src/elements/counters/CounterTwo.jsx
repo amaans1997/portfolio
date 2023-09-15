@@ -1,7 +1,7 @@
 import React, { Component , Fragment } from "react";
 import CountUp from 'react-countup';
 import VisibilitySensor from 'react-visibility-sensor';
-import ScrollAnimation from 'react-animate-on-scroll';
+// import ScrollAnimation from 'react-animate-on-scroll';
 
 class CounterOne extends Component{
     state = {
@@ -37,7 +37,7 @@ class CounterOne extends Component{
                 <div className="row mt--40">
                     {Data.map( (value, index) => (
                         <div className="counterup_style--2 col-lg-3 col-md-6 col-6" key={index}>
-                            <ScrollAnimation 
+                            {/* <ScrollAnimation 
                                 animateIn="fadeInUp" 
                                 animateOnce={true} 
                                 delay={100}
@@ -48,7 +48,7 @@ class CounterOne extends Component{
                                     </VisibilitySensor>
                                 </h5>
                                 <h4 className="description">{value.countTitle}</h4>
-                            </ScrollAnimation>
+                            </ScrollAnimation> */}
                         </div>
                     ))}
                 </div>

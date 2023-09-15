@@ -5,7 +5,6 @@
   "homepage": "http://trydo.rainbowit.net",
   "basename": "/",
   "dependencies": {
-    "@babel/core": "7.4.3",
     "@svgr/webpack": "4.1.0",
     "@typescript-eslint/eslint-plugin": "1.6.0",
     "@typescript-eslint/parser": "1.6.0",
@@ -48,7 +47,6 @@
     "postcss-safe-parser": "4.0.1",
     "react": "^17.0.2",
     "react-accessible-accordion": "^3.3.5",
-    "react-animate-on-scroll": "^2.1.5",
     "react-app-polyfill": "^1.0.6",
     "react-bootstrap": "^1.6.4",
     "react-countup": "^4.4.0",

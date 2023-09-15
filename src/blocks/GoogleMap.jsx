@@ -1,5 +1,4 @@
 import React, { Component } from 'react'
-import GoogleMapReact from 'google-map-react';
 import { FiChevronUp } from "react-icons/fi";
 import PageHelmet from "../component/common/Helmet";
 import Breadcrumb from "../elements/common/Breadcrumb";
@@ -43,7 +42,7 @@ class GoogleMap extends Component {
                                 <div className="col-lg-6">
                                     <div className="rn-contact-map-area position-relative">
                                         <div style={{ height: '550px', width: '100%' }}>
-                                            <GoogleMapReact
+                                            {/* <GoogleMapReact
                                             defaultCenter={this.props.center}
                                             defaultZoom={this.props.zoom}
                                             >
@@ -52,7 +51,7 @@ class GoogleMap extends Component {
                                                 lng={30.337844}
                                                 text="My Marker"
                                             />
-                                            </GoogleMapReact>
+                                            </GoogleMapReact> */}
                                         </div>
                                     </div>
                                 </div>
@@ -61,7 +60,7 @@ class GoogleMap extends Component {
                                 <div className="col-lg-6">
                                     <div className="rn-contact-map-area position-relative">
                                         <div style={{ height: '550px', width: '100%' }}>
-                                            <GoogleMapReact
+                                            {/* <GoogleMapReact
                                             defaultCenter={this.props.center}
                                             defaultZoom={this.props.zoom}
                                             >
@@ -70,7 +69,7 @@ class GoogleMap extends Component {
                                                 lng={30.337844}
                                                 text="My Marker"
                                             />
-                                            </GoogleMapReact>
+                                            </GoogleMapReact> */}
                                         </div>
                                     </div>
                                 </div>
@@ -90,16 +89,7 @@ class GoogleMap extends Component {
                                 <div className="col-lg-4 col-md-6 col-12">
                                     <div className="rn-contact-map-area position-relative">
                                         <div style={{ height: '550px', width: '100%' }}>
-                                            <GoogleMapReact
-                                            defaultCenter={this.props.center}
-                                            defaultZoom={this.props.zoom}
-                                            >
-                                            <AnyReactComponent
-                                                lat={59.955413}
-                                                lng={30.337844}
-                                                text="My Marker"
-                                            />
-                                            </GoogleMapReact>
+                                            
                                         </div>
                                     </div>
                                 </div>
@@ -109,16 +99,7 @@ class GoogleMap extends Component {
                                 <div className="col-lg-4 col-md-6 col-12 mt_sm--30">
                                     <div className="rn-contact-map-area position-relative">
                                         <div style={{ height: '550px', width: '100%' }}>
-                                            <GoogleMapReact
-                                            defaultCenter={this.props.center}
-                                            defaultZoom={this.props.zoom}
-                                            >
-                                            <AnyReactComponent
-                                                lat={59.955413}
-                                                lng={30.337844}
-                                                text="My Marker"
-                                            />
-                                            </GoogleMapReact>
+                                           
                                         </div>
                                     </div>
                                 </div>
@@ -128,16 +109,7 @@ class GoogleMap extends Component {
                                 <div className="col-lg-4 col-md-6 col-12 mt_md--30 mt_sm--30">
                                     <div className="rn-contact-map-area position-relative">
                                         <div style={{ height: '550px', width: '100%' }}>
-                                            <GoogleMapReact
-                                            defaultCenter={this.props.center}
-                                            defaultZoom={this.props.zoom}
-                                            >
-                                            <AnyReactComponent
-                                                lat={59.955413}
-                                                lng={30.337844}
-                                                text="My Marker"
-                                            />
-                                            </GoogleMapReact>
+                                            
                                         </div>
                                     </div>
                                 </div>
@@ -156,16 +128,7 @@ class GoogleMap extends Component {
                                 <div className="col-lg-12 col-12">
                                     <div className="rn-contact-map-area position-relative">
                                         <div style={{ height: '550px', width: '100%' }}>
-                                            <GoogleMapReact
-                                            defaultCenter={this.props.center}
-                                            defaultZoom={this.props.zoom}
-                                            >
-                                            <AnyReactComponent
-                                                lat={59.955413}
-                                                lng={30.337844}
-                                                text="My Marker"
-                                            />
-                                            </GoogleMapReact>
+                                            
                                         </div>
                                     </div>
                                 </div>
