@@ -8,8 +8,6 @@ import FooterTwo from "../component/footer/FooterTwo";
 import TabTwo from "../elements/tab/TabTwo";
 import ContactThree from "../elements/contact/ContactThree";
 import PortfolioList from "../elements/portfolio/PortfolioList";
-import ServiceList from "../elements/service/ServiceList";
-import BlogContent from "../elements/blog/BlogContent";
 
 const SlideList = [
     {
@@ -23,7 +21,6 @@ const SlideList = [
 const PortfolioLanding = () => {
     let title = 'About Me',
         description = 'Hey , I am a full stack developer with more than 5 years of work experience . I have worked with some big enterprise companies as well as with startups . As a lead developer on many projects I have a large experience and interesting cases/features or optimization tricks behind, so you can be sure that in any difficult situation I always ready to discuss it and suggest my ideas or solutions.Have a wide technical skill-set. Able to keep calm and resolve stressful situations. Very strong attention to detail. Have an ability to improve and learn new skills on the job.';
-    const PostList = BlogContent.slice(0 , 3);
     return (
         <div className="active-dark">
             <Helmet pageTitle="Portfolio Landing" />

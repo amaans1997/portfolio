@@ -7,8 +7,6 @@ import Header from "../component/header/Header";
 import Footer from "../component/footer/Footer";
 
 
-const AnyReactComponent = ({ text }) => <div>{text}</div>;
-
 class GoogleMap extends Component {
     static defaultProps = {
         center: {

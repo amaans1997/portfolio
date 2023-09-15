@@ -25,38 +25,34 @@ class TabsTwo extends Component {
                     <div className="single-tab-content">
                       <ul>
                         <li>
-                          <a style={{fontWeight: "bold" }}>
+                          <div style={{fontWeight: "bold" }}>
                             Frontend Developer (React Js / Next Js){" "}
                             <span>
-                              {" "}
-                              - Convert figma into a nice and resposive UI
                             </span>
-                          </a>
+                          </div>
                           <div
                             style={{ display: "flex" , flexDirection : "row" }}
                           >
                             <div style={{  marginRight : 5  , width : 200 }}>
                               Tech Stack -   
                             </div>
-                            <span>   React Js , Next Js , Redux , Redux thunk , React hooks , Typescript , Data Visualization , Tailwind Css , Material UI , Mapbox , React Highcharts & d3.js </span>
+                            <span style={{fontWeight: "normal" }}>   React Js , Next Js , Redux , Redux thunk , React hooks , Typescript , Data Visualization , Tailwind Css , Material UI , Mapbox , React Highcharts & d3.js </span>
                           </div>
                         </li>
                         <li>
-                          <a style={{fontWeight: "bold" }}>
+                          <div style={{fontWeight: "bold" }}>
                             Full Stack Developer
-                            <span>
-                              {" "}
-                              - Create backend architecture , database and
-                              integrating the API
+                            <span >
+                         
                             </span>
-                          </a>
+                          </div>
                           <div
                             style={{ display: "flex" , flexDirection : "row" }}
                           >
                             <div style={{  marginRight : 5 }}>
                               Tech Stack -   
                             </div>
-                            <span>   Node Js , Laravel , PHP , Twilio integration , Azure </span>
+                            <span style={{fontWeight: "normal" }}>   Node Js , Laravel , PHP , Twilio integration , Azure </span>
                           </div>
                         </li>
                       </ul>
@@ -69,41 +65,41 @@ class TabsTwo extends Component {
                     <div className="single-tab-content">
                       <ul>
                         <li>
-                          <a style={{fontWeight: "bold" }}>
-                            Software Engineer<span> - Geekyants</span>
-                          </a>{" "}
+                          <div style={{fontWeight: "bold" }}>
+                            Software Engineer<span style={{fontWeight: "normal" }}> - Geekyants</span>
+                          </div>{" "}
                           2019 - 2019
                         </li>
                         <li>
-                          <a style={{fontWeight: "bold" }}>
-                            SDE-II<span> - Mobile Premier League</span>
-                          </a>{" "}
+                          <div style={{fontWeight: "bold" }}>
+                            SDE-II<span style={{fontWeight: "normal" }}> - Mobile Premier League</span>
+                          </div>{" "}
                           2019 - 2021
                         </li>
                         <li>
-                          <a style={{fontWeight: "bold" }}>
-                            Senior Front-end Developer <span> - Urgentem </span>
-                          </a>{" "}
+                          <div style={{fontWeight: "bold" }}>
+                            Senior Front-end Developer <span style={{fontWeight: "normal" }}> - Urgentem </span>
+                          </div>{" "}
                           2020 - 2021
                         </li>
                         <li>
-                          <a style={{fontWeight: "bold" }}>
+                          <div style={{fontWeight: "bold" }}>
                             Full-stack Developer
-                            <span> - The Kraft Heinz Company </span>
-                          </a>{" "}
+                            <span style={{fontWeight: "normal" }}> - The Kraft Heinz Company </span>
+                          </div>{" "}
                           2021 - 2022
                         </li>
                         <li>
-                          <a style={{fontWeight: "bold" }}>
-                            Full-stack Engineer<span> - Allegis - Cruise </span>
-                          </a>{" "}
+                          <div style={{fontWeight: "bold" }}>
+                            Full-stack Engineer<span style={{fontWeight: "normal" }}> - Allegis - Cruise </span>
+                          </div>{" "}
                           2022 - 2023
                         </li>
                         <li>
-                          <a style={{fontWeight: "bold" }}>
+                          <div style={{fontWeight: "bold" }}>
                             Senior Front-end Developer
-                            <span> - Lariat Data </span>
-                          </a>{" "}
+                            <span style={{fontWeight: "normal" }}> - Lariat Data </span>
+                          </div>{" "}
                           2023 - 2023
                         </li>
                       </ul>
@@ -114,10 +110,10 @@ class TabsTwo extends Component {
                     <div className="single-tab-content">
                       <ul>
                         <li>
-                          <a style={{fontWeight: "bold" }}>
-                          Bachelor's Degree(CSE)
-                            <span> LDRP Institute of Technology and Research, Ahmedabad, India</span>
-                          </a>{" "}
+                          <div style={{fontWeight: "bold" }}>
+                          Bachelor's Degree(CSE) - 
+                            <span style={{fontWeight: "normal" }}> LDRP Institute of Technology and Research, Ahmedabad, India</span>
+                          </div>{" "}
                           2015 - 2019
                         </li>
                        

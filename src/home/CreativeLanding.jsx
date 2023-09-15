@@ -112,7 +112,7 @@ class CreativeLanding extends Component{
                     <div className="header-wrapper" id="header-wrapper">
                         <div className="header-left">
                             <div className="logo">
-                                <a href="/">
+                                <a href="/test">
                                     <img className="logo-1" src="/assets/images/logo/logo-light.png" alt="Logo Images"/>
                                     <img className="logo-2" src="/assets/images/logo/logo-all-dark.png" alt="Logo Images"/>
                                 </a>
@@ -125,8 +125,8 @@ class CreativeLanding extends Component{
                                         <ul className="submenu">
                                             <li className="has-droupdown"><a href="#">Home</a>
                                                 <ul className="submenu">
-                                                    <li><a href="#">Submenu</a></li>
-                                                    <li><a href="#">Submenu</a></li>
+                                                    <li><a href="#service">Submenu</a></li>
+                                                    <li><a href="#service">Submenu</a></li>
                                                 </ul>
                                             </li>
                                             <li><a href="#">Home</a></li>
