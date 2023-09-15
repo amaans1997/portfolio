@@ -7,11 +7,12 @@ import './index.scss';
 
 import PageScrollTop from './component/PageScrollTop';
 
-// Home layout
-
 // Dark Home Layout 
 import DarkPortfolioLanding from './dark/PortfolioLanding';
-// Blocks Layout
+
+
+import PortfolioDetails from "./elements/PortfolioDetails";
+
 import { BrowserRouter, Switch, Route  } from 'react-router-dom';
 import * as serviceWorker from './serviceWorker';
 
@@ -22,8 +23,9 @@ class Root extends Component{
                 <PageScrollTop>
                     <Switch>
                         <Route exact path={`${process.env.PUBLIC_URL}/`} component={DarkPortfolioLanding}/>
-                        
-                        
+                        <Route exact path={`${process.env.PUBLIC_URL}/portfolio-details/:portfolio`} component={PortfolioDetails}/>
+
+                    
 
                     </Switch>
                 </PageScrollTop>
