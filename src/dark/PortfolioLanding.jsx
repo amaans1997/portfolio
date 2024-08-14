@@ -20,7 +20,7 @@ const SlideList = [
 ]
 const PortfolioLanding = () => {
     let title = 'About Me',
-        description = 'Hey , I am a full stack developer with more than 5 years of work experience . I have worked with some big enterprise companies as well as with startups . As a lead developer on many projects I have a large experience and interesting cases/features or optimization tricks behind, so you can be sure that in any difficult situation I always ready to discuss it and suggest my ideas or solutions.Have a wide technical skill-set. Able to keep calm and resolve stressful situations. Very strong attention to detail. Have an ability to improve and learn new skills on the job.';
+        description = "Hey , I am a full stack developer with over 5 years of experience, having worked with both large enterprise companies and innovative startups. As a lead developer on numerous projects, I've gained extensive experience in developing complex features, implementing optimization techniques, and navigating challenging technical scenarios. I bring a wide-ranging technical skill set, a strong attention to detail, and a proven ability to remain calm and effective in stressful situations. I'm always eager to discuss challenges and propose innovative solutions, and I continuously strive to learn and adapt new skills on the job.";
     return (
         <div className="active-dark">
             <Helmet pageTitle="Portfolio Landing" />

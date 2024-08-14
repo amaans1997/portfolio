@@ -25,82 +25,121 @@ class TabsTwo extends Component {
                     <div className="single-tab-content">
                       <ul>
                         <li>
-                          <div style={{fontWeight: "bold" }}>
+                          <div style={{ fontWeight: "bold" }}>
                             Frontend Developer (React Js / Next Js){" "}
-                            <span>
-                            </span>
+                            <span></span>
                           </div>
                           <div
-                            style={{ display: "flex" , flexDirection : "row" }}
+                            style={{ display: "flex", flexDirection: "row" }}
                           >
-                            <div style={{  marginRight : 5  , width : 200 }}>
-                              Tech Stack -   
+                            <div style={{ marginRight: 5, width: "40%" }}>
+                              Tech Stack -
                             </div>
-                            <span style={{fontWeight: "normal" }}>   React Js , Next Js , Redux , Redux thunk , React hooks , Typescript , Data Visualization , Tailwind Css , Material UI , Mapbox , React Highcharts & d3.js </span>
+                            <span style={{ fontWeight: "normal" }}>
+                              {" "}
+                              React Js , Next Js , Redux , Redux thunk , React
+                              hooks , Typescript , HTML , CSS , Javascript ,
+                              D3.js , Highcharts , Storybook , Data
+                              Visualization , Tailwind CSS , Material UI ,
+                              Twilio and Mapbox{" "}
+                            </span>
                           </div>
                         </li>
                         <li>
-                          <div style={{fontWeight: "bold" }}>
+                          <div style={{ fontWeight: "bold" }}>
                             Full Stack Developer
-                            <span >
-                         
-                            </span>
+                            <span></span>
                           </div>
                           <div
-                            style={{ display: "flex" , flexDirection : "row" }}
+                            style={{ display: "flex", flexDirection: "row" }}
                           >
-                            <div style={{  marginRight : 5 }}>
-                              Tech Stack -   
+                            <div style={{ marginRight: 5, width: "25%" }}>
+                              Tech Stack -
                             </div>
-                            <span style={{fontWeight: "normal" }}>   Node Js , Laravel , PHP , Twilio integration , Azure </span>
+                            <span style={{ fontWeight: "normal" }}>
+                              {" "}
+                              Node Js , Laravel , PHP , Twilio integration , AWS
+                              ec2 , Azure , Python3 , Djanjo , Jupyter , Numpy ,
+                              Pandas and Seaborn{" "}
+                            </span>
                           </div>
                         </li>
                       </ul>
                     </div>
                   </TabPanel>
 
-                 
-
                   <TabPanel>
                     <div className="single-tab-content">
                       <ul>
                         <li>
-                          <div style={{fontWeight: "bold" }}>
-                            Software Engineer<span style={{fontWeight: "normal" }}> - Geekyants</span>
+                          <div style={{ fontWeight: "bold" }}>
+                            Full Stack (React + Python Developer)
+                            <span style={{ fontWeight: "normal" }}>
+                              {" "}
+                              - Whole Finance{" "}
+                            </span>
                           </div>{" "}
-                          2019 - 2019
+                          2023 - 2024
                         </li>
                         <li>
-                          <div style={{fontWeight: "bold" }}>
-                            SDE-II<span style={{fontWeight: "normal" }}> - Mobile Premier League</span>
+                          <div style={{ fontWeight: "bold" }}>
+                          Senior Full Stack (React + Python Developer)
+                            <span style={{ fontWeight: "normal" }}>
+                              {" "}
+                              - Lariat Data{" "}
+                            </span>
                           </div>{" "}
-                          2019 - 2021
+                          2023 - 2023
                         </li>
                         <li>
-                          <div style={{fontWeight: "bold" }}>
-                            Senior Front-end Developer <span style={{fontWeight: "normal" }}> - Urgentem </span>
-                          </div>{" "}
-                          2020 - 2021
-                        </li>
-                        <li>
-                          <div style={{fontWeight: "bold" }}>
-                            Full-stack Developer
-                            <span style={{fontWeight: "normal" }}> - The Kraft Heinz Company </span>
-                          </div>{" "}
-                          2021 - 2022
-                        </li>
-                        <li>
-                          <div style={{fontWeight: "bold" }}>
-                            Full-stack Engineer<span style={{fontWeight: "normal" }}> - Allegis - Cruise </span>
+                          <div style={{ fontWeight: "bold" }}>
+                            Full-stack Engineer
+                            <span style={{ fontWeight: "normal" }}>
+                              {" "}
+                              - Allegis - Cruise{" "}
+                            </span>
                           </div>{" "}
                           2022 - 2023
                         </li>
                         <li>
-                          <div style={{fontWeight: "bold" }}>
-                            Senior Front-end Developer
-                            <span style={{fontWeight: "normal" }}> - Lariat Data </span>
+                          <div style={{ fontWeight: "bold" }}>
+                            Full-stack Developer
+                            <span style={{ fontWeight: "normal" }}>
+                              {" "}
+                              - The Kraft Heinz Company{" "}
+                            </span>
                           </div>{" "}
-                          2023 - 2023
+                          2021 - 2022
+                        </li>
+                        <li>
+                          <div style={{ fontWeight: "bold" }}>
+                            Senior Front-end Developer{" "}
+                            <span style={{ fontWeight: "normal" }}>
+                              {" "}
+                              - Urgentem{" "}
+                            </span>
+                          </div>{" "}
+                          2020 - 2021
+                        </li>
+                        <li>
+                          <div style={{ fontWeight: "bold" }}>
+                            SDE-II
+                            <span style={{ fontWeight: "normal" }}>
+                              {" "}
+                              - Mobile Premier League
+                            </span>
+                          </div>{" "}
+                          2019 - 2021
+                        </li>
+                        <li>
+                          <div style={{ fontWeight: "bold" }}>
+                            Software Engineer
+                            <span style={{ fontWeight: "normal" }}>
+                              {" "}
+                              - Geekyants
+                            </span>
+                          </div>{" "}
+                          2019 - 2019
                         </li>
                       </ul>
                     </div>
@@ -110,13 +149,16 @@ class TabsTwo extends Component {
                     <div className="single-tab-content">
                       <ul>
                         <li>
-                          <div style={{fontWeight: "bold" }}>
-                          Bachelor's Degree(CSE) - 
-                            <span style={{fontWeight: "normal" }}> LDRP Institute of Technology and Research, Ahmedabad, India</span>
+                          <div style={{ fontWeight: "bold" }}>
+                            Bachelor's Degree(CSE) -
+                            <span style={{ fontWeight: "normal" }}>
+                              {" "}
+                              LDRP Institute of Technology and Research,
+                              Ahmedabad, India
+                            </span>
                           </div>{" "}
                           2015 - 2019
                         </li>
-                       
                       </ul>
                     </div>
                   </TabPanel>

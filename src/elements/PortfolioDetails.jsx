@@ -2,15 +2,46 @@ import React, { Component } from "react";
 import PageHelmet from "../component/common/Helmet";
 import FooterTwo from "../component/footer/FooterTwo";
 
-
-
 const project = [
   {
-    role: "Senior Frontend Developer",
+    role: "Full Stack  Developer (React + Python)",
+    company: "Whole FInance",
+    website: "-",
+    projectUrl: "https://wholefinance.com/",
+    skills:
+      "React , Redux , React Highcharts ,  Lodash , Tailwind CSS , Data Visualization & Charting , Stripe , Python3 , Django , ReportLab , Pandas , Seaborn , Matplotlib and Amplitude",
+    description: (
+      <ul>
+        <li>
+          Developed a web app using React + Redux that provides real-time
+          financial market data. Integrated D3.js to display data in the form of
+          charts.
+        </li>
+        <li>
+          Worked on building an AI tool similar to chatGPT but for the financial
+          market where users can ask any questions and select any of the
+          displayed commands for displaying the cash flow, return over the
+          years, and report of any stock company.
+        </li>
+        <li>
+          Worked on integrating Stripe as a payment solution. Integrated both
+          one-time solutions and recurring payment solutions.
+        </li>
+        <li>
+          Worked on building dataframes using numpy and pandas by analysing
+          stock data over the years and modifying the same as per the
+          requirements . Also used seaborn and matplotlib for building charts in
+          reports.
+        </li>
+      </ul>
+    ),
+  },
+  {
+    role: "Full Stack Developer (React + Python)",
     company: "Lariat Data Inc.",
     website: "https://lariatdata.com",
     skills:
-      "React , Redux , Redux Saga , Formik , Yup , D3.js , Lodash , Tailwind CSS , Data Visualization & Charting",
+      "React , Redux , Redux Saga , Formik , Yup , D3.js , Lodash , Tailwind CSS , Data Visualization & Charting , Python , Django and Pandas",
     description: (
       <ul>
         <li>
@@ -26,6 +57,10 @@ const project = [
           Architected re-usable patterns to use D3.js within the React
           framework.Performed componentization of data visualizations for use in
           other parts of the company.
+        </li>
+        <li>
+          Implemented data analysis using Python and Pandas to measure our
+          programs' performance over a broad range of metrics.
         </li>
       </ul>
     ),
@@ -56,7 +91,7 @@ const project = [
     ),
   },
   {
-    role: "Full-stack Developer    ",
+    role: "Full-stack Developer",
     company: "The Kraft Heinz Company",
     website: "https://www.kraftheinzcompany.com",
     skills:
@@ -190,20 +225,22 @@ class PortfolioDetails extends Component {
     if (pathName) {
       const pathArray = pathName.split("/")[2];
       switch (pathArray) {
-        case "sass-product":
+        case "financial-ai-tool":
           return 0;
-        case "customer-portal":
+        case "sass-product":
           return 1;
-        case "mvp-food-industry":
+        case "customer-portal":
           return 2;
-        case "emission-dashboard":
+        case "mvp-food-industry":
           return 3;
-        case "elderly-app":
+        case "emission-dashboard":
           return 4;
+        case "elderly-app":
+          return 5;
         case "training-tool":
-          return 5;
+          return 6;
         default:
-          return 5;
+          return 7;
       }
     }
   };
@@ -278,21 +315,27 @@ class PortfolioDetails extends Component {
                             </div>
                             <div class="w-75"> {project[index]["skills"]}</div>
                           </div>
-                          {project[index]["projectUrl"] && <div
-                            class="d-flex flex-row"
-                            style={{ marginBottom: 12 }}
-                          >
+                          {project[index]["projectUrl"] && (
                             <div
-                              class="font-weight-bold w-25"
-                              style={{ marginRight: 12 }}
+                              class="d-flex flex-row"
+                              style={{ marginBottom: 12 }}
                             >
-                              Project
+                              <div
+                                class="font-weight-bold w-25"
+                                style={{ marginRight: 12 }}
+                              >
+                                Project
+                              </div>
+                              <a
+                                class="w-75"
+                                href={project[index]["projectUrl"]}
+                                style={{ color: "#823ffc" }}
+                              >
+                                {" "}
+                                {project[index]["projectUrl"]}
+                              </a>
                             </div>
-                            <a class="w-75" href={project[index]["projectUrl"]} style={{color:'#823ffc'}}>
-                              {" "}
-                              {project[index]["projectUrl"]}
-                            </a>
-                          </div>}
+                          )}
                           <div
                             class="d-flex flex-row"
                             style={{ marginBottom: 12 }}

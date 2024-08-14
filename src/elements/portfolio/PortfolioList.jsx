@@ -2,6 +2,11 @@ import React, { Component } from "react";
 
 const PortfolioListContent = [
     {
+        image: 'image-12',
+        category: 'financial-ai-tool',
+        title: 'AI tool for  investment researchers and advisors.'
+    },
+    {
         image: 'image-1',
         category: 'sass-product',
         title: 'Development of SaaS Product'
@@ -49,7 +54,7 @@ class PortfolioList extends Component{
                             </div>
                             <div className="content">
                                 <div className="inner">
-                                    <h4><div>{value.category}</div></h4>
+                                    <h4><div>{value.title}</div></h4>
                                     <div className="portfolio-button">
                                         <a className="rn-btn" href={`/portfolio-details/${value.category}`}>View Details</a>
                                     </div>
