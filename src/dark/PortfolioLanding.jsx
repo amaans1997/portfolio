@@ -23,7 +23,7 @@ const PortfolioLanding = () => {
         description = "Hey , I am a full stack developer with over 5 years of experience, having worked with both large enterprise companies and innovative startups. As a lead developer on numerous projects, I've gained extensive experience in developing complex features, implementing optimization techniques, and navigating challenging technical scenarios. I bring a wide-ranging technical skill set, a strong attention to detail, and a proven ability to remain calm and effective in stressful situations. I'm always eager to discuss challenges and propose innovative solutions, and I continuously strive to learn and adapt new skills on the job.";
     return (
         <div className="active-dark">
-            <Helmet pageTitle="Portfolio Landing" />
+            <Helmet pageTitle="Amaan Salheen | Full Stack Developer | React Js, Node Js and AI" />
 
             <HeaderThree homeLink="/" logo="symbol-dark" color="color-black"/>
             {/* Start Slider Area   */}

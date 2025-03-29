@@ -26,7 +26,7 @@ const PortfolioLanding = () => {
     const PostList = BlogContent.slice(0 , 3);
     return (
         <div>
-            <Helmet pageTitle="Portfolio Landing" />
+            <Helmet pageTitle="Amaan Salheen | Full Stack Developer | React Js, Node Js and AI" />
             <HeaderThree homeLink="/" logo="symbol-dark" color="color-black"/>
             {/* Start Slider Area   */}
             <div id="home" className="fix">
