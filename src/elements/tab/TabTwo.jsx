@@ -71,55 +71,16 @@ class TabsTwo extends Component {
                   <TabPanel>
                     <div className="single-tab-content">
                       <ul>
+                        
                         <li>
                           <div style={{ fontWeight: "bold" }}>
-                            Full Stack (React + Python Developer)
+                            Full Stack  Developer -{" "}
                             <span style={{ fontWeight: "normal" }}>
                               {" "}
-                              - Whole Finance{" "}
+                              Toptal {" "}
                             </span>
                           </div>{" "}
-                          2023 - 2024
-                        </li>
-                        <li>
-                          <div style={{ fontWeight: "bold" }}>
-                          Senior Full Stack (React + Python Developer)
-                            <span style={{ fontWeight: "normal" }}>
-                              {" "}
-                              - Lariat Data{" "}
-                            </span>
-                          </div>{" "}
-                          2023 - 2023
-                        </li>
-                        <li>
-                          <div style={{ fontWeight: "bold" }}>
-                            Full-stack Engineer
-                            <span style={{ fontWeight: "normal" }}>
-                              {" "}
-                              - Allegis - Cruise{" "}
-                            </span>
-                          </div>{" "}
-                          2022 - 2023
-                        </li>
-                        <li>
-                          <div style={{ fontWeight: "bold" }}>
-                            Full-stack Developer
-                            <span style={{ fontWeight: "normal" }}>
-                              {" "}
-                              - The Kraft Heinz Company{" "}
-                            </span>
-                          </div>{" "}
-                          2021 - 2022
-                        </li>
-                        <li>
-                          <div style={{ fontWeight: "bold" }}>
-                            Senior Front-end Developer{" "}
-                            <span style={{ fontWeight: "normal" }}>
-                              {" "}
-                              - Urgentem{" "}
-                            </span>
-                          </div>{" "}
-                          2020 - 2021
+                          2021 - Present
                         </li>
                         <li>
                           <div style={{ fontWeight: "bold" }}>

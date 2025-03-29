@@ -92,7 +92,7 @@ const project = [
   },
   {
     role: "Full-stack Developer",
-    company: "The Kraft Heinz Company",
+    company: "Thes Kraft Heinz Company",
     website: "https://www.kraftheinzcompany.com",
     skills:
       "Laravel , Livewire , Tailwind CSS , Azure , Laravel SPark , Stripe Js ,and AWS Textract",
@@ -205,6 +205,47 @@ const project = [
       </ul>
     ),
   },
+  {
+    role: "Full Stack  Developer (React + Python)",
+    company: "Generative Genius",
+    website: "-",
+    projectUrl: "https://agentgg.ai/",
+    skills:
+      "React , Redux , Tailwind CSS , Stripe , Python3 , Django , LLMs , Open AI , Gemini , Anthropic ,  Lite LLM , oauth , AWS SES , AWS ec2 , Dynamo DB",
+    description: (
+      <ul>
+        <li>
+          Designed and developed an AI-powered platform using React and
+          Python(Django) enabling users to query multiple LLMs (GPT-4o, Gemini,
+          Claude, Grok) in sequential or parallel modes, providing flexible
+          response aggregation.
+        </li>
+        <li>
+          Developed a sequential processing system, where AI responses feed into
+          one another to generate a comprehensive, refined final answer,
+          enhancing multi-AI collaboration.
+        </li>
+        <li>
+          Built a tiered payment system using Stripe, offering free trials,
+          monthly subscriptions, and additional token-based usage, mirroring
+          enterprise-grade AI pricing models.
+        </li>
+        <li>
+          Created a multi-user workspace allowing organizations to add users,
+          allocate tokens, manage access permissions, and track usage analytics.
+        </li>
+        <li>
+          Designed customizable user settings for fine-tuned AI interactions,
+          including model preferences, conversation history, uploaded files, and
+          API-based integrations for advanced users.
+        </li>
+        <li>
+          Integrated Amazon DynamoDB, SES, and SNS, enabling efficient data
+          storage, email notifications, and OTP authentication.
+        </li>
+      </ul>
+    ),
+  },
 ];
 class PortfolioDetails extends Component {
   constructor() {
@@ -239,8 +280,10 @@ class PortfolioDetails extends Component {
           return 5;
         case "training-tool":
           return 6;
-        default:
+        case "ai-llms":
           return 7;
+        default:
+          return 8;
       }
     }
   };

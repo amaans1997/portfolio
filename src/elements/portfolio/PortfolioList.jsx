@@ -2,6 +2,11 @@ import React, { Component } from "react";
 
 const PortfolioListContent = [
     {
+        image: 'image-4',
+        category: 'ai-llms',
+        title: 'AI tool integrating multiple LLMs '
+    },
+    {
         image: 'image-12',
         category: 'financial-ai-tool',
         title: 'AI tool for  investment researchers and advisors.'

@@ -8,7 +8,7 @@ import resume from "../../assets/amaanresume.pdf"
 
 const SocialShare = [
     {Social: <SiToptal /> , link: 'https://www.toptal.com/resume/amaan-salheen'},
-    {Social: <FaLinkedinIn /> , link: 'https://www.linkedin.com/in/amaan-salheen-3a071a164/'},
+    {Social: <FaLinkedinIn /> , link: 'https://www.linkedin.com/in/amaan-salheen-3a071a164'},
     {Social: <AiFillGithub /> , link: 'https://github.com/amaans11'},
     {Social: <FaFilePdf />, link: resume}, 
 ]
